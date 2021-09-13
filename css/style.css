@@ -1,0 +1,99 @@
+:root {
+  --bg-color: #2874f0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 10vh;
+  background: var(--bg-color);
+}
+header,
+footer,
+main,
+.btn,
+.search input,
+.container {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav ul li {
+  padding: 0 20px;
+  display: inline;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: rgb(216, 209, 209);
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 80px;
+  padding: 20px;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  width: 488px;
+  height: 27px;
+  border-radius: 3px;
+  margin: 0 16px 0 56px;
+}
+.btn {
+  border-radius: 1px;
+}
+.m1 {
+  min-height: calc(100vh - 10vh - 10vh);
+}
+.slider {
+  width: 90vw;
+  margin: 10px auto;
+}
+.items {
+  max-width: 94vw;
+  margin: auto;
+}
+/* .items{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+} */
+
+/* Added */
+.itemcontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+}
+.item {
+  margin: 20px;
+}
+
+.desc {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  height: 10vh;
+  background: var(--bg-color);
+  color: white;
+}
+
+.border {
+  border: 2px solid red;
+}
